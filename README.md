@@ -3,6 +3,9 @@
 
 # Sample answers predicted by the chat bot
 
+### >> import robo.py as r
+### >> r.askme()
+
 Enter question : hi
 
 hello
