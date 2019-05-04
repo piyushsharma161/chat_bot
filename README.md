@@ -25,3 +25,21 @@ i have read just in binary
 Enter question : can you walk
 
 the plan for my body includes legs but they are not yet built
+
+Steps involved:
+
+1. Read the data ans seperate questions and answers.
+
+2. Tokenize and pad the questions. ( encoder input data ), also used glove word embedding.
+
+3. Tokenize and pad the answers. Append <START> and <END> in all sequences.( decoder input data )
+
+4. Tokenize and pad the answers. Remove the <START> in all sequences. One hot encode the sequences. ( decoder target data )
+  
+5. saved encoder_input_data, decoder_input_data, decoder_target_data, embedding_matrix and tokenizer for future use.
+
+6. Prepare the model and save it.
+
+7. Make interface model and save encoded and decoded model for future use.
+
+8. Preapre function for question and answer.
