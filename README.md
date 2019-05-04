@@ -27,7 +27,7 @@ Enter question : can you walk
 
 the plan for my body includes legs but they are not yet built
 
-Steps involved:
+## Steps involved:
 
 1. Read the data ans seperate questions and answers.
 
